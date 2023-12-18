@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Leam - Contact</title>
+        <title>LEAM - Contact</title>
         <link rel="icon" href="/assets/favicon.ico" />
       </Head>
       <Navbar />

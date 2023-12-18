@@ -19,23 +19,34 @@ const Footer = () => {
             <div>
               <Link href="/legal/privacy">Privacy Policy</Link>
             </div>
+            <div>
+              <a
+                target="_blank"
+                href="https://luiskameter.com"
+                rel="noopener noreferrer"
+              >
+                Web developer
+              </a>
+            </div>
           </div>
           <div className="mx-4 lg:mx-8">
             <div>
-              <Link href="/">Home</Link>{" "}
+              <Link href="/">Home</Link>
             </div>
             <div>
-              <Link href="/">Use cases</Link>{" "}
+              <Link href="/use-cases">Use cases</Link>
             </div>
             <div>
-              <Link href="/">Team</Link>{" "}
+              <Link href="/team">Team</Link>
             </div>
             <div>
-              <Link href="/">Contact</Link>{" "}
+              <Link href="/contact">Contact</Link>
             </div>
           </div>
         </div>
-        <p className="w-full text-center mt-4 text-xs">Copyright © 2023 LEAM</p>
+        <p className="w-full text-center mt-4 text-xs">
+          Copyright © 2023 LEAM Technologies GmbH
+        </p>
       </div>
     </div>
   );

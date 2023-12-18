@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Leam - Pilot Project</title>
+        <title>LEAM - Pilot Project</title>
         <link rel="icon" href="/assets/favicon.ico" />
       </Head>
       <Navbar />

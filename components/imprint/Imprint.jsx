@@ -8,7 +8,7 @@ const Imprint = () => {
         <div>
           <p className="font-bold text-4xl mb-4">Impressum</p>
           <p className="mb-20 text-lg max-w-[1000px]">
-            Angaben gemäß § 5 TMG
+            <b className="text-xl">Angaben gemäß § 5 TMG</b>
             <br />
             Benno Böckl
             <br />
@@ -19,18 +19,19 @@ const Imprint = () => {
             Deutschland
             <br />
             <br />
-            Kontakt
+            <b className="text-xl">Kontakt</b>
             <br />
             Telefon: 0172/6771335
             <br />
             E-Mail: info@leam.tech
             <br />
-            Redaktionell verantwortlich
+            <br />
+            <b className="text-xl">Redaktionell verantwortlich</b>
             <br />
             Benno Böckl
             <br />
             <br />
-            HaftungsausschlussHaftung für Links
+            <b className="text-xl">HaftungsausschlussHaftung für Links</b>
             <br />
             Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren
             Inhalte wir keinen Einfluss haben. Deshalb können wir für diese
@@ -44,7 +45,8 @@ const Imprint = () => {
             nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir
             derartige Links umgehend entfernen.
             <br />
-            Haftung für Inhalt
+            <br />
+            <b className="text-xl">Haftung für Inhalt</b>
             <br />
             Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für
             die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können
@@ -61,7 +63,8 @@ const Imprint = () => {
             Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese
             Inhalte umgehend entfernen.
             <br />
-            Urheberrecht
+            <br />
+            <b className="text-xl">Urheberrecht</b>
             <br />
             Die durch die Seitenbetreiber erstellten Inhalte und Werke auf
             diesen Seiten unterliegen dem deutschen Urheberrecht. Die

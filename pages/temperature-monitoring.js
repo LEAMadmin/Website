@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Leam - Temperature Monitoring</title>
+        <title>LEAM - Temperature Monitoring</title>
         <link rel="icon" href="/assets/favicon.ico" />
       </Head>
       <Navbar />

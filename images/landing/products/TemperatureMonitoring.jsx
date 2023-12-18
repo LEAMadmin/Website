@@ -5,8 +5,7 @@ const Demex = () => {
     <img
       src="/assets/landing/products/temperature_monitoring.jpg"
       alt="temperature monitoring"
-      width="300px"
-      height="200px"
+      style={{ objectFit: "cover", width: "100%", height: "100%" }}
     ></img>
   );
 };

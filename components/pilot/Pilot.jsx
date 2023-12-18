@@ -52,7 +52,6 @@ const Team = () => {
               </p>
               <div className="w-[40%] shadow-leam">
                 <Combo />
-                <p>Combo Tool</p>
               </div>
             </div>
             <div className="mb-20 w-full flex justify-center">

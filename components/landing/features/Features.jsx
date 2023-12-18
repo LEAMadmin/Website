@@ -6,7 +6,7 @@ const Features = () => {
       <div className="absolute feature-background w-full h-screen"></div>
       <div className="relative z-10 px-4 lg:px-40 xl:px-60 2xl:px-96 justify-center items-center flex w-full h-screen">
         <div>
-          <div className="m-4 mb-10 lg:mb-8">
+          <a className="block m-4 mb-10 lg:mb-8" href="/use-cases">
             <p className="font-black text-2xl md:text-3xl 2xl:text-4xl mb-2">
               Unprecedented part performance
             </p>
@@ -14,10 +14,10 @@ const Features = () => {
               Our DEMEX system allows the user to print parts with mechanical
               performance that has never been achieved before.
             </p>
-            <div className="feature-gradient w-[50%] h-[2px] rotate-180"></div>
-          </div>
+            <div className="feature-gradient w-[50%] h-[2px]"></div>
+          </a>
           <div className="lg:flex">
-            <div className="m-4 mb-10 lg:mb-4">
+            <a className="block m-4 mb-10 lg:mb-4" href="/use-cases">
               <p className="font-black text-2xl md:text-3xl 2xl:text-4xl mb-2">
                 New process combinations
               </p>
@@ -27,9 +27,9 @@ const Features = () => {
                 needed. Process and material combinations that seemed unfeasible
                 before, are now possible.
               </p>
-              <div className="feature-gradient w-[50%] h-[2px] rotate-180"></div>
-            </div>
-            <div className="m-4">
+              <div className="feature-gradient w-[50%] h-[2px]"></div>
+            </a>
+            <a className="block m-4" href="/use-cases">
               <p className="font-black text-2xl md:text-3xl 2xl:text-4xl mb-2">
                 Digital twin
               </p>
@@ -38,8 +38,8 @@ const Features = () => {
                 twin of every produced part and be informed about your
                 production parameters.
               </p>
-              <div className="feature-gradient w-[50%] h-[2px] rotate-180"></div>
-            </div>
+              <div className="feature-gradient w-[50%] h-[2px]"></div>
+            </a>
           </div>
         </div>
       </div>

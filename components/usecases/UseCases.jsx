@@ -10,9 +10,10 @@ const Team = () => {
       <div className="flex mt-20 w-full justify-center">
         <div className="flex max-w-[1200px]">
           <div className="w-full md:mr-6 md:px-20">
-            <p className="text-3xl md:text-5xl mb-10">
+            <p className="text-3xl md:text-5xl mb-6">
               Unprecedented part performance
             </p>
+            <div className="feature-gradient w-full mb-10 h-[2px]"></div>
             <p className="text-base md:text-lg">
               3D printed parts oftentimes suffer from strong anisotropy, mainly
               due to weak bonds between the layers. Our DEMEX system uses
@@ -28,7 +29,7 @@ const Team = () => {
                   <p className="text-3xl md:text-5xl mb-6 outline-leam">
                     New process combinations
                   </p>
-                  <div className="feature-gradient w-full mb-10 md:mb-0 h-[2px] rotate-180"></div>
+                  <div className="feature-gradient w-full mb-10 md:mb-0 h-[2px]"></div>
                 </div>
               </div>
               <p className="text-base md:text-lg w-full">
@@ -50,6 +51,7 @@ const Team = () => {
             <div className="md:flex items-center mb-20">
               <div className="w-full">
                 <p className="text-3xl md:text-5xl mb-6">Digital twin</p>
+                <div className="feature-gradient w-full mb-10 h-[2px]"></div>
                 <p className="text-base md:text-lg">
                   Parts used in demanding sectors such as aerospace or oil &amp;
                   gas must satisfy the specified mechanical performance and
@@ -64,12 +66,15 @@ const Team = () => {
               </div>
             </div>
             <div className="w-full md:flex items-center">
-              <div className="p-4 w-full h-full">
-                <Twin2 />
-                <p>Digital Twin</p>
+              <div className="p-4 w-full flex justify-end">
+                <div className="xl:h-[400px] md:h-[220px] xl:w-full md:w-[300px]">
+                  <Twin1 />
+                </div>
               </div>
-              <div className="p-4 w-full h-full">
-                <Twin1 />
+              <div className="p-4 w-full flex justify-start">
+                <div className="xl:h-[400px] md:h-[220px] xl:w-full md:w-[300px]">
+                  <Twin2 />
+                </div>
               </div>
             </div>
             <div className="my-20 w-full flex justify-center">

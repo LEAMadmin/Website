@@ -6,8 +6,7 @@ const Demex = () => {
       className="image-cover"
       src="/assets/landing/products/demex.jpg"
       alt="demex"
-      width="300px"
-      height="200px"
+      style={{ objectFit: "cover", width: "100%", height: "100%" }}
     ></img>
   );
 };

@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="relative mt-24 px-10 md:px-20 xl:px-40 flex justify-center">
         <div className="bg-black/25 p-10 rounded-lg mb-32 lg:mb-0">
           <p className="font-bold text-2xl md:text-4xl mb-6">Get in touch</p>
-          <div className="feature-gradient sm:w-[350px] md:w-[500px] lg:w-[750px] h-[2px] mb-10 rotate-180"></div>
+          <div className="feature-gradient sm:w-[350px] md:w-[500px] lg:w-[750px] h-[2px] mb-10"></div>
           <div className="lg:flex">
             <div className="w-full">
               <form action="mailto:info@leam.tech" method="GET">

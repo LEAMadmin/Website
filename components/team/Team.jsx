@@ -29,7 +29,7 @@ const Team = () => {
               industries that rely on polymers, through industrial-grade process
               stability and material excellence.
             </p>
-            <div className="feature-gradient w-[250px] md:w-[500px] h-[2px] mr-4 mb-10 rotate-180"></div>
+            <div className="feature-gradient w-[250px] md:w-[500px] h-[2px] mr-4 mb-10"></div>
           </div>
           <div className="md:flex w-full items-center justify-between mb-20">
             <div className="md:mr-2 mb-20 md:mb-0 p-4 text-center">

@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Leam - Demex</title>
+        <title>LEAM - Demex</title>
         <link rel="icon" href="/assets/favicon.ico" />
       </Head>
       <Navbar />

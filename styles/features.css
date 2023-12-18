@@ -44,3 +44,13 @@
 .image-cover {
     object-fit: cover;
 }
+
+.nav-products:hover + .products-menu{
+    transform: translateY(100%);
+    opacity: 100%;
+}
+
+.products-menu:hover {
+    transform: translateY(100%);
+    opacity: 100%;
+}
