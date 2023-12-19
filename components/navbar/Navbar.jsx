@@ -37,9 +37,6 @@ const Navbar = () => {
         <div>
           <ul className="relative invisible md:flex md:visible h-[120px]">
             <Navlink hideArrow text="Home" href="/" />
-            <Navlink hideArrow text="Use cases" href="/use-cases" />
-            <Navlink hideArrow text="Team" href="/team" />
-            <Navlink hideArrow text="Contact" href="/contact" />
             <div className="nav-products relative cursor-pointer flex px-6 lg:px-9 xl:px-12 justify-between items-center bg-white/0 hover:bg-white/20 ease-in duration-200">
               <p className="text-white lg:text-xl">Products</p>
             </div>
@@ -52,6 +49,9 @@ const Navbar = () => {
                 href="/temperature-monitoring"
               />
             </div>
+            <Navlink hideArrow text="Use cases" href="/use-cases" />
+            <Navlink hideArrow text="Team" href="/team" />
+            <Navlink hideArrow text="Contact" href="/contact" />
           </ul>
           <div
             onClick={handleNav}
@@ -96,15 +96,6 @@ const Navbar = () => {
                 <div className="w-full h-full">
                   <Navlink text="Home" href="/" />
                 </div>
-                <div className="w-full h-full">
-                  <Navlink text="Use cases" href="/use-cases" />
-                </div>
-                <div className="w-full h-full">
-                  <Navlink text="Team" href="/team" />
-                </div>
-                <div className="w-full h-full">
-                  <Navlink text="Contact" href="/contact" />
-                </div>
                 <div
                   className="w-full h-full"
                   ref={(node) => {
@@ -113,6 +104,15 @@ const Navbar = () => {
                   }}
                 >
                   <Navlink text="Products" href="#" />
+                </div>
+                <div className="w-full h-full">
+                  <Navlink text="Use cases" href="/use-cases" />
+                </div>
+                <div className="w-full h-full">
+                  <Navlink text="Team" href="/team" />
+                </div>
+                <div className="w-full h-full">
+                  <Navlink text="Contact" href="/contact" />
                 </div>
               </ul>
               <ul className="flex flex-col justify-center h-full w-full">
@@ -142,7 +142,15 @@ const Navbar = () => {
             <div className="fixed bottom-0 pl-10 pb-10">
               <ul>
                 <NavFooter text="imprint" href="/legal/imprint" />
-                <NavFooter text="privacy policy" href="/legal/privacy" />
+                <div className="w-full h-[40px] leading-[40px] text-white text-sm mx-2">
+                  <a
+                    target="_blank"
+                    href="https://itrk.legal/MKo.99.GrN.html"
+                    rel="noopener noreferrer"
+                  >
+                    Privacy policy
+                  </a>
+                </div>
               </ul>
             </div>
           </div>

@@ -17,7 +17,13 @@ const Footer = () => {
               <Link href="/legal/imprint">Imprint</Link>
             </div>
             <div>
-              <Link href="/legal/privacy">Privacy Policy</Link>
+              <a
+                target="_blank"
+                href="https://itrk.legal/MKo.99.GrN.html"
+                rel="noopener noreferrer"
+              >
+                Privacy policy
+              </a>
             </div>
             <div>
               <a
