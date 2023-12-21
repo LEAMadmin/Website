@@ -12,6 +12,10 @@ export default function Home() {
       <Head>
         <title>LEAM</title>
         <link rel="icon" href="/assets/favicon.ico" />
+        <meta
+          name="description"
+          content="LEAM enables isotropic properties in polymer 3D printing"
+        />
       </Head>
       <Navbar />
       <Hero />
