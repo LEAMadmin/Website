@@ -7,7 +7,6 @@ const Banner = () => {
       alt="Leam partners"
       width="850px"
       height="400px"
-      objectFit="contain"
     ></img>
   );
 };

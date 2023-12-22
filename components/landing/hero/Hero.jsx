@@ -9,9 +9,9 @@ const Hero = () => {
           <Video />
         </div>
         <div className="p-6 md:p-10 lg:p-20 text-4xl sm:text-5xl md:text-7xl">
-          <p className="font-bold drop-shadow-[0_35px_35px_rgba(0,0,0,1)]">
+          <h1 className="font-bold drop-shadow-[0_35px_35px_rgba(0,0,0,1)]">
             Light <br /> Enabled <br /> Additive <br /> Manufacturing
-          </p>
+          </h1>
         </div>
       </div>
       <div className="feature-gradient w-full h-[5px] md:h-[10px] bg-red-500" />

@@ -14,8 +14,11 @@ export default function Home() {
         <link rel="icon" href="/assets/favicon.ico" />
         <meta
           name="description"
+          property="description"
+          key="desc"
           content="LEAM enables isotropic properties in polymer 3D printing"
         />
+        <meta property="og:title" content="LEAM Technologies GmbH" />
       </Head>
       <Navbar />
       <Hero />
@@ -23,6 +26,7 @@ export default function Home() {
       <Partners />
       <Features />
       <Footer />
+      <script type="application/ld+json">{"@context"}</script>
     </div>
   );
 }
